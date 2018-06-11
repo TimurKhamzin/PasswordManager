@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01349B5420CA8BF100533FCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01349B5320CA8BF100533FCB /* AppDelegate.m */; };
+		01349B5720CA8BF100533FCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01349B5620CA8BF100533FCB /* ViewController.m */; };
+		01349B5A20CA8BF100533FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01349B5820CA8BF100533FCB /* Main.storyboard */; };
+		01349B5C20CA8BF300533FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01349B5B20CA8BF300533FCB /* Assets.xcassets */; };
+		01349B5F20CA8BF300533FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01349B5D20CA8BF300533FCB /* LaunchScreen.storyboard */; };
+		01349B6220CA8BF300533FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01349B6120CA8BF300533FCB /* main.m */; };
+		01349B6C20CA8BF300533FCB /* timur_projTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01349B6B20CA8BF300533FCB /* timur_projTests.m */; };
+		01349B7720CA8BF300533FCB /* timur_projUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01349B7620CA8BF300533FCB /* timur_projUITests.m */; };
+		01349B8620CA8DA800533FCB /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01349B8520CA8DA800533FCB /* TableViewCell.m */; };
+		01349B8920CA8E2C00533FCB /* LoginData.m in Sources */ = {isa = PBXBuildFile; fileRef = 01349B8820CA8E2C00533FCB /* LoginData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01349B6820CA8BF300533FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01349B4720CA8BF100533FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01349B4E20CA8BF100533FCB;
+			remoteInfo = timur_proj;
+		};
+		01349B7320CA8BF300533FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01349B4720CA8BF100533FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01349B4E20CA8BF100533FCB;
+			remoteInfo = timur_proj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01349B4F20CA8BF100533FCB /* timur_proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timur_proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01349B5220CA8BF100533FCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01349B5320CA8BF100533FCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01349B5520CA8BF100533FCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01349B5620CA8BF100533FCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01349B5920CA8BF100533FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01349B5B20CA8BF300533FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01349B5E20CA8BF300533FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01349B6020CA8BF300533FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01349B6120CA8BF300533FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01349B6720CA8BF300533FCB /* timur_projTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timur_projTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01349B6B20CA8BF300533FCB /* timur_projTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timur_projTests.m; sourceTree = "<group>"; };
+		01349B6D20CA8BF300533FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01349B7220CA8BF300533FCB /* timur_projUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timur_projUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01349B7620CA8BF300533FCB /* timur_projUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timur_projUITests.m; sourceTree = "<group>"; };
+		01349B7820CA8BF300533FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01349B8420CA8DA800533FCB /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		01349B8520CA8DA800533FCB /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		01349B8720CA8E2C00533FCB /* LoginData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginData.h; sourceTree = "<group>"; };
+		01349B8820CA8E2C00533FCB /* LoginData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01349B4C20CA8BF100533FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01349B6420CA8BF300533FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01349B6F20CA8BF300533FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01349B4620CA8BF100533FCB = {
+			isa = PBXGroup;
+			children = (
+				01349B5120CA8BF100533FCB /* timur_proj */,
+				01349B6A20CA8BF300533FCB /* timur_projTests */,
+				01349B7520CA8BF300533FCB /* timur_projUITests */,
+				01349B5020CA8BF100533FCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01349B5020CA8BF100533FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01349B4F20CA8BF100533FCB /* timur_proj.app */,
+				01349B6720CA8BF300533FCB /* timur_projTests.xctest */,
+				01349B7220CA8BF300533FCB /* timur_projUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01349B5120CA8BF100533FCB /* timur_proj */ = {
+			isa = PBXGroup;
+			children = (
+				01349B5220CA8BF100533FCB /* AppDelegate.h */,
+				01349B5320CA8BF100533FCB /* AppDelegate.m */,
+				01349B5520CA8BF100533FCB /* ViewController.h */,
+				01349B5620CA8BF100533FCB /* ViewController.m */,
+				01349B5820CA8BF100533FCB /* Main.storyboard */,
+				01349B5B20CA8BF300533FCB /* Assets.xcassets */,
+				01349B5D20CA8BF300533FCB /* LaunchScreen.storyboard */,
+				01349B6020CA8BF300533FCB /* Info.plist */,
+				01349B6120CA8BF300533FCB /* main.m */,
+				01349B8420CA8DA800533FCB /* TableViewCell.h */,
+				01349B8520CA8DA800533FCB /* TableViewCell.m */,
+				01349B8720CA8E2C00533FCB /* LoginData.h */,
+				01349B8820CA8E2C00533FCB /* LoginData.m */,
+			);
+			path = timur_proj;
+			sourceTree = "<group>";
+		};
+		01349B6A20CA8BF300533FCB /* timur_projTests */ = {
+			isa = PBXGroup;
+			children = (
+				01349B6B20CA8BF300533FCB /* timur_projTests.m */,
+				01349B6D20CA8BF300533FCB /* Info.plist */,
+			);
+			path = timur_projTests;
+			sourceTree = "<group>";
+		};
+		01349B7520CA8BF300533FCB /* timur_projUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01349B7620CA8BF300533FCB /* timur_projUITests.m */,
+				01349B7820CA8BF300533FCB /* Info.plist */,
+			);
+			path = timur_projUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01349B4E20CA8BF100533FCB /* timur_proj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01349B7B20CA8BF300533FCB /* Build configuration list for PBXNativeTarget "timur_proj" */;
+			buildPhases = (
+				01349B4B20CA8BF100533FCB /* Sources */,
+				01349B4C20CA8BF100533FCB /* Frameworks */,
+				01349B4D20CA8BF100533FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timur_proj;
+			productName = timur_proj;
+			productReference = 01349B4F20CA8BF100533FCB /* timur_proj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01349B6620CA8BF300533FCB /* timur_projTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01349B7E20CA8BF300533FCB /* Build configuration list for PBXNativeTarget "timur_projTests" */;
+			buildPhases = (
+				01349B6320CA8BF300533FCB /* Sources */,
+				01349B6420CA8BF300533FCB /* Frameworks */,
+				01349B6520CA8BF300533FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01349B6920CA8BF300533FCB /* PBXTargetDependency */,
+			);
+			name = timur_projTests;
+			productName = timur_projTests;
+			productReference = 01349B6720CA8BF300533FCB /* timur_projTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01349B7120CA8BF300533FCB /* timur_projUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01349B8120CA8BF300533FCB /* Build configuration list for PBXNativeTarget "timur_projUITests" */;
+			buildPhases = (
+				01349B6E20CA8BF300533FCB /* Sources */,
+				01349B6F20CA8BF300533FCB /* Frameworks */,
+				01349B7020CA8BF300533FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01349B7420CA8BF300533FCB /* PBXTargetDependency */,
+			);
+			name = timur_projUITests;
+			productName = timur_projUITests;
+			productReference = 01349B7220CA8BF300533FCB /* timur_projUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01349B4720CA8BF100533FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Vladislav Popov";
+				TargetAttributes = {
+					01349B4E20CA8BF100533FCB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					01349B6620CA8BF300533FCB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 01349B4E20CA8BF100533FCB;
+					};
+					01349B7120CA8BF300533FCB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 01349B4E20CA8BF100533FCB;
+					};
+				};
+			};
+			buildConfigurationList = 01349B4A20CA8BF100533FCB /* Build configuration list for PBXProject "timur_proj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01349B4620CA8BF100533FCB;
+			productRefGroup = 01349B5020CA8BF100533FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01349B4E20CA8BF100533FCB /* timur_proj */,
+				01349B6620CA8BF300533FCB /* timur_projTests */,
+				01349B7120CA8BF300533FCB /* timur_projUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01349B4D20CA8BF100533FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01349B5F20CA8BF300533FCB /* LaunchScreen.storyboard in Resources */,
+				01349B5C20CA8BF300533FCB /* Assets.xcassets in Resources */,
+				01349B5A20CA8BF100533FCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01349B6520CA8BF300533FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01349B7020CA8BF300533FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01349B4B20CA8BF100533FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01349B8920CA8E2C00533FCB /* LoginData.m in Sources */,
+				01349B5720CA8BF100533FCB /* ViewController.m in Sources */,
+				01349B8620CA8DA800533FCB /* TableViewCell.m in Sources */,
+				01349B6220CA8BF300533FCB /* main.m in Sources */,
+				01349B5420CA8BF100533FCB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01349B6320CA8BF300533FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01349B6C20CA8BF300533FCB /* timur_projTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01349B6E20CA8BF300533FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01349B7720CA8BF300533FCB /* timur_projUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01349B6920CA8BF300533FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01349B4E20CA8BF100533FCB /* timur_proj */;
+			targetProxy = 01349B6820CA8BF300533FCB /* PBXContainerItemProxy */;
+		};
+		01349B7420CA8BF300533FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01349B4E20CA8BF100533FCB /* timur_proj */;
+			targetProxy = 01349B7320CA8BF300533FCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01349B5820CA8BF100533FCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01349B5920CA8BF100533FCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01349B5D20CA8BF300533FCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01349B5E20CA8BF300533FCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01349B7920CA8BF300533FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01349B7A20CA8BF300533FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01349B7C20CA8BF300533FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T74LT6NN5H;
+				INFOPLIST_FILE = timur_proj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TKH.timur-proj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01349B7D20CA8BF300533FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T74LT6NN5H;
+				INFOPLIST_FILE = timur_proj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TKH.timur-proj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01349B7F20CA8BF300533FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timur_projTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tabbakka.timur-projTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timur_proj.app/timur_proj";
+			};
+			name = Debug;
+		};
+		01349B8020CA8BF300533FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timur_projTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tabbakka.timur-projTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timur_proj.app/timur_proj";
+			};
+			name = Release;
+		};
+		01349B8220CA8BF300533FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timur_projUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tabbakka.timur-projUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = timur_proj;
+			};
+			name = Debug;
+		};
+		01349B8320CA8BF300533FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timur_projUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tabbakka.timur-projUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = timur_proj;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01349B4A20CA8BF100533FCB /* Build configuration list for PBXProject "timur_proj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01349B7920CA8BF300533FCB /* Debug */,
+				01349B7A20CA8BF300533FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01349B7B20CA8BF300533FCB /* Build configuration list for PBXNativeTarget "timur_proj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01349B7C20CA8BF300533FCB /* Debug */,
+				01349B7D20CA8BF300533FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01349B7E20CA8BF300533FCB /* Build configuration list for PBXNativeTarget "timur_projTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01349B7F20CA8BF300533FCB /* Debug */,
+				01349B8020CA8BF300533FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01349B8120CA8BF300533FCB /* Build configuration list for PBXNativeTarget "timur_projUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01349B8220CA8BF300533FCB /* Debug */,
+				01349B8320CA8BF300533FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01349B4720CA8BF100533FCB /* Project object */;
+}
